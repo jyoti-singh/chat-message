@@ -1,0 +1,5 @@
+
+
+FAYE_TOKEN = "anything"
+
+

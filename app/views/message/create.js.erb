@@ -1,0 +1,5 @@
+
+<%= broadcast "/message/new" do %>
+$("#chat").append("<%= escape_javascript %>");
+<% end %>
+$("#new_message")[0].reset();
